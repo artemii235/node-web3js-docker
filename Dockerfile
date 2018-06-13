@@ -1,2 +1,2 @@
-FROM mhart/alpine-node:8.10
+FROM mhart/alpine-node:10.4.0
 RUN apk update && apk upgrade && apk add git && apk add python && apk add make && apk add g++
